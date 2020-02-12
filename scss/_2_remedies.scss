@@ -1,0 +1,93 @@
+// 2_remedies
+
+.remedies {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0px;
+  background-image: url(img/layers_10.png);
+
+  .remedies__title {
+    color: #383334;
+    font-family: "Roboto - Black";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  .remedies__descr {
+    color: #2b2828;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 36px;
+  }
+
+  .dangers {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .dangers__var__pict {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 19px;
+      }
+
+      span {
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+      }
+    }
+
+    .dangers__line {
+      width: 50px;
+      height: 3px;
+      background-color: #becbd8;
+      margin-top: 31px;
+    }
+
+    .dangers__descr {
+      color: #444444;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      margin-top: 20px;
+    }
+  }
+
+  .statistic {
+    text-align: center;
+    margin-top: 32px;
+    border: 3px solid #f4d3bb;
+    border-radius: 10px;
+    padding: 20px;
+
+    .statistic__title {
+      color: #000000;
+      font-family: "Roboto";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+
+    .statistic__descr {
+      color: #444444;
+      font-family: "Roboto - Regular";
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+}

@@ -1,0 +1,185 @@
+// 1_header
+
+.header .header__wrapper {
+    width: 100%;
+    height: auto;
+    max-width: 2560px;
+    margin: 0 auto;
+    background: url(./img/header-bg.png) no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+  
+    .main {
+      width: 90%;
+  
+      .pluses__var {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 10px 30px;
+  
+        .logo__name {
+          margin: 0 76px 0 17px;
+          color: #383334;
+          font-family: "Roboto - Black";
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 40px;
+        }
+  
+        .pluses__var__type {
+          display: flex;
+          align-items: center;
+          margin-right: 38px;
+  
+          .pluses__var__type__descr {
+            color: #666666;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: italic;
+            line-height: 18px;
+            margin-left: 12px;
+          }
+        }
+      }
+  
+      .checkout {
+        margin-right: 60px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+  
+        .leftside {
+          margin-right: 33px;
+  
+          .header__pluses__title {
+            color: #383334;
+            font-family: "Roboto - Black";
+            font-size: 44px;
+            font-weight: 400;
+          }
+  
+          .active__var__type {
+            margin: 44px 0 40px;
+            display: flex;
+            align-items: center;
+  
+            .active__var__type__descr {
+              color: #444444;
+              font-family: "Roboto - Regular";
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 24px;
+              margin-left: 18px;
+            }
+          }
+        }
+  
+        .rightside {
+          width: 20%;
+          background-color: #ffffff;
+          border-radius: 10px;
+          border: 10px solid #a8ca3f;
+          text-align: center;
+          margin-bottom: 166px;
+  
+          .delivery {
+            margin-top: 10px;
+          }
+  
+          .rightside__title {
+            color: #000000;
+            font-size: 20px;
+            font-family: "Roboto - Regular";
+            font-weight: 400;
+            line-height: 22px;
+            margin: 15px auto;
+          }
+  
+          .price {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-bottom: 15px;
+  
+            .price-old {
+              margin-right: 21px;
+  
+              .old {
+                color: #666666;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                margin-bottom: 14px;
+              }
+            }
+  
+            .new {
+              color: #000000;
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+              margin-bottom: 7px;
+            }
+          }
+  
+          .rightside__form {
+            .form-style {
+              width: 70%;
+              box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.04);
+              border-radius: 32px;
+              background-color: #eef2f7;
+              margin-bottom: 10px;
+              padding: 20px 0 22px 45px;
+              outline: none;
+              background-image: url(img/Shape_1.1.png);
+              background-repeat: no-repeat;
+              background-position: 21px;
+              font-size: 16px;
+            }
+  
+            .form-style-tel {
+              background-image: url(img/Shape_1.2.png);
+              margin-bottom: 15px;
+            }
+  
+            .rightside__button {
+              border-radius: 32px;
+              background-color: #a8ca3f;
+              background-image: linear-gradient(to right, #ffbc02 0%, #ffce02 100%);
+              padding: 16px 48px 14px;
+              color: #000000;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 16px;
+              margin-bottom: 20px;
+            }
+          }
+  
+          .leftovers {
+            color: #333333;
+            font-family: "Roboto - Regular";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 15px;
+          }
+  
+          .protection {
+            padding: 17px 0 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+  
+            img {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }

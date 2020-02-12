@@ -1,0 +1,24 @@
+@import "reset";
+@import "1_header";
+@import "2_remedies";
+@import "3_ineffective";
+@import "4_selection";
+@import "5_application";
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+    background: #000;
+}
+.vector{
+    display: block;
+    margin: 0 auto;
+}
+.medium{
+    color: #000000;
+    font-family: "Roboto Medium";
+    font-weight: 500;
+}
+.orange-textcolor{
+    color: #f64d01;
+}

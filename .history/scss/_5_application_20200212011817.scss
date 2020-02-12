@@ -1,0 +1,52 @@
+// 5_application
+
+.application {
+  padding: 35px 0px;
+  text-align: center;
+  background-image: url(/img/layer_2.png);
+
+  .application__title {
+    color: #000000;
+    font-family: "Roboto - Black";
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-top: 13px;
+  }
+
+  .rule {
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    .rule__art {
+      margin-left: 18px;
+
+      .rule__art__stage {
+        display: flex;
+        align-items: center;
+
+        .rule__art__img {
+          margin-top: 15px;
+        }
+
+        .rule__art__line {
+          width: 40px;
+          height: 3px;
+          background-color: #7bbf1c;
+          margin-bottom: 19px;
+        }
+
+        .rule__art__descr {
+          color: #000000;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 26px;
+          margin-left: 28px;
+        }
+      }
+    }
+  }
+}
